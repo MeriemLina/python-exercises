@@ -1,8 +1,5 @@
-def hashing(longueur):
-    idk=''
-    for i in range(int(longueur)):
-        idk += '#'
+width = int(input("width : "))
+height = int(input("height : "))
 
-    print(idk)
-
-hashing(input("enter a width"))
+for i in range(height):
+    print("#"*width, end=" ")
